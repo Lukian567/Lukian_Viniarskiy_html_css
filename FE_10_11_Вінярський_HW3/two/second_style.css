@@ -1,0 +1,108 @@
+.main_block{
+    width: 700px;
+    height: 800px;
+    margin: 300px;
+    border: 2px solid black;
+}
+
+.header{
+    width: 700px;
+    height: 150px;
+    background-color: peachpuff;
+}
+
+.header_smaller{
+    width: 500px;
+    height: 80px;
+    background-color: rgb(235, 168, 110);
+    
+    margin-left: 90px;
+    margin-top: 35px;
+    float: left;
+}
+
+.smallest{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(253, 143, 47);
+    
+    margin-left: 90px;
+    margin-top: 18px;
+    float: left;
+}
+
+p{
+    margin-left: 100px;
+}
+
+.block_menu{
+    width: 700px;
+    height: 140px;
+
+}
+
+.menu{
+    width: 140px;
+    height: 140px;
+    background-color: brown;
+    float: left;
+}
+
+.one{
+    background-color: aqua;
+
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: blueviolet;
+}
+
+.four{
+    background-color: chartreuse;
+}
+
+.five{
+    background-color: crimson
+}
+
+.men{
+    margin-left: 30px;
+}
+
+.pidval{
+    height:110px;
+    width: 700px;
+    background-color: silver; 
+    
+}
+
+.three_big_blocks{
+    width:700px ;
+    height: 400px;
+}
+
+.big_block{
+    width:233.33333333333333333333333333333px;
+    height: 400px;
+    background-color: rgb(16, 209, 16);
+    float: left;
+ 
+}
+
+.pid{
+    margin-left: 300px;
+    margin-top: 0;
+    font-size: larger;
+}
+
+.second{
+    background-color: magenta;
+}
+
+.third{
+    background-color: gold;
+}

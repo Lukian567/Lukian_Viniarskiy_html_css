@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Kanit ;
+}
+
+
+@media computer (max-width: 1440px){
+    .header{
+       
+    }
+
+    
+}
+
+.container{
+    width: 1440px;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.first_floor{
+    width: 1440px;
+    height: 570px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto_black_inf{
+    width: 720px;
+    height: 570px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+
+.zag1{
+    
+    font-size: 28px;
+}
+.nap1{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.block{
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+   
+}
+
+
+.vel{
+    height: 200px;
+}
+
+.data{
+    height: 50px;
+}
+
+.fin{
+    display: flex;
+    align-items: flex-end;
+}
+
+.featured{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fe{
+    
+    margin-left: 150px;
+    font-size: 18px;
+    
+}
+
+.third_floor{
+    width: 1440px;
+    height: 600px;
+   
+    display: flex;
+    
+}
+
+.foto{
+    margin-top: 20px;
+}
+
+.one{
+    margin-left: 150px;
+    margin-right: 13px;
+}
+
+.two{
+    margin-right: 150px;
+    margin-left: 13px;
+}
+
+.text_third_floor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.zag{
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.nap{
+    margin-top: 20px;
+  font-weight: lighter;
+}
+
+.fourth_floor{
+    width: 1440px;
+    height: 340px;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.png1{
+margin-right: 25px;
+}
+
+.png3{
+    margin-left: 25px;
+}
+
+.text_fourth{
+    font-size: 12px;
+    
+}
+
+.raz{
+    letter-spacing: 6px;
+}
+
+.dva{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.perehid{
+    width: 1440px;
+    height: 200px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    width: 238px;
+    height: 42px;
+    background-color: rgb(48,48,48);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(30,30,30);
+}
+
+.dvi_fotki{
+    display: flex;
+    margin-left: 150px;
+}
+
+.druga{
+    width: 571.5px;
+    height: 360px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt{
+    font-size: 34px;
+}
+
+.knopka{
+    width: 198px;
+    height: 42px;
+    
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.fifteenth_floor{
+    width: 1440px;
+    height: 340px;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.black{
+    background-color: black;
+    justify-content: flex-end;
+    flex-direction: column;
+}

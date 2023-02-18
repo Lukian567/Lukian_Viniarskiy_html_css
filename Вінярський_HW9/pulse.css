@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(210,220,227);
+
+}
+
+html,
+body,
+.items {
+    width: 100%;
+    height: 100%;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.header {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+
+p {
+    font-family: arial;
+    font-size: 50px;
+
+}
+
+.pidval {
+    width: 600px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.one{
+    background-color: white;
+}
+
+.two{
+    background-color: rgb(255,97,77);
+}
+
+.three{
+    background-color: rgb(255, 131, 59);
+}
+
+.four{
+    background-color: rgb(253, 253, 66);
+}
+
+.five{
+    background-color:rgb(41, 164, 227);
+}
+
+.six{
+    background-color: rgb(39,198,178);
+}
+
+.seven{
+    background-color: rgb(143,81,173);
+}
+
+.eight{
+    background-color: rgb(0,1,2);
+}
+
+
+.circle::before {
+  content: '';
+  position: absolute;
+  border:  17.3px solid rgba(255, 255, 255, 0.3);
+  left: -20px;
+  
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border-radius: 50%;
+  animation: circle 2.5s 1s infinite;
+
+}
+
+
+
+@keyframes circle {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+   
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}
+
+.two::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(216, 15, 15, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }
+
+  .three::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(216, 136, 15, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }
+  .four::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(216, 203, 15, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }
+ 
+  
+  .five::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(15, 45, 216, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }
+
+  .six::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(15, 176, 216, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }
+
+  .seven::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(152, 15, 216, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }
+
+  .eight::before {
+    content: '';
+    position: absolute;
+    border:   17.3px solid rgba(0, 0, 0, 0.3);
+    left: -20px;
+    
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: circle 2.5s 1s infinite;
+  
+  }
+  
+  
+  
+  @keyframes circle {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+     
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  }

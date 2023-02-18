@@ -1,0 +1,10 @@
+@mixin block($block-width,$block-height,$block-background){
+    width: $block-width;
+    height: $block-height;
+    background: $block-background;
+ 
+    
+
+}
+
+

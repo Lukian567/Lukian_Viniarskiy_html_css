@@ -1,0 +1,71 @@
+@import './scss/pallet.scss' ;
+@import'./mixin.scss';
+
+.header-logo{
+    color: $text-color
+}
+
+.title{
+    color: $text-color
+}
+
+body{
+    background-color: $header-color;
+}
+
+.block{
+    background-color: aqua;
+    width: 384/768 * 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.circle{
+
+    @include shape(150px,150px, green, yellow);
+    // width: 150px;
+    // height: 150px;
+    // background-color: cornflowerblue;
+    // border: 1px solid yellow;
+    border-radius: 50%;
+}
+
+.square{
+    @include shape(200px,200px, rgb(128, 0, 0), rgb(0, 0, 0))
+
+    // width: 200px;
+    // height: 200px;
+    // background-color: rgb(123, 237, 100);
+    // border: 1px solid yellow;
+  
+}
+
+.rectangle{
+    @include shape(300px,350px, rgb(31, 33, 136), rgb(136, 255, 0))
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.good{
+    @extend .btn;
+    background-color: lightseagreen;
+}
+
+
+.bad{
+    @extend .btn;
+    background-color: red;
+}

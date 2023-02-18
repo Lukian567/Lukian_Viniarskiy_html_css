@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(188, 205, 255);
+}
+#third{
+    background-color: rgb(197, 135, 238);
+    color: rgb(212, 39, 97);
+    font-size: 40px;
+    text-align: end;
+    font-weight: 600;
+}

@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.all {
+
+    width: 100%;
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    word-spacing: 100px;
+    font-size: 30px;
+    height: 100px;
+    line-height: 100px;
+    font-family: bahij;
+}
+
+.content {
+    width: 95%;
+    height: 600px;
+    background-color: rgb(208, 218, 218);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.panel{
+    background-color: rgb(254, 254, 255);
+    height: 400px;
+    width: 100px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+@font-face {
+    font-family: ChronicaPro;
+    src: url(/fonts/ChronicaPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: bahij;
+    src: url(/fonts/bahij-sultannahia.ttf);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(40, 121, 214);
+}
+
+
+.big {
+    width: 100%;
+    height: 600px;
+
+}
+
+.block {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: bahij;
+    font-size: 22px;
+
+
+}
+
+
+
+.up {
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+
+
+}
+
+.left {
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.green {
+    height: 150px;
+    width: 650px;
+}
+
+
+
+.orange {
+    width: 450px;
+    height: 340px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+p {
+    margin-left: 30px;
+
+}
+
+.zag {
+    color: rgb(156, 163, 163);
+}
+
+.nap {
+
+    font-size: 40px;
+
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    float: left;
+}
+
+.foto2 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.fa-regular {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+    margin: 20px 0px 20px 0px;
+
+
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.fa-regular:hover {
+    color: white;
+    background-color: rgb(40, 121, 214);
+   
+    border-radius: 5px;
+    cursor: pointer;
+   
+    
+    
+ 
+
+}
+
+
+
+.fa-solid {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+    margin: 10px 0px 10px 0px;
+
+
+    padding: 5px;
+    transition: 0.5s;
+
+}
+
+
+.fa-solid:hover {
+
+    color: white;
+    background-color: rgb(40, 121, 214);
+    border-radius: 5px;
+    cursor: pointer;
+
+ 
+}
+
+.black {
+    font-size: 40px;
+}
+
+
+.animation{
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.animation:hover{
+background-color: blue;
+width: 120px;
+}
+
+.animation::after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+}
+
+.animation:hover::after{
+    content: project;
+}
